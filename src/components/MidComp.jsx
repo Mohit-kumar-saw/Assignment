@@ -1,4 +1,5 @@
 import React from "react";
+import Dropdown from "./Dropdown";
 
 const MidComp = () => {
   return (
@@ -94,28 +95,7 @@ const MidComp = () => {
         <span className="font-[700] text-[48px] gradient-text">FAQ</span>
 
         <div>
-          <div className=" flex justify-between px-2 w-[848px] h-[58px] rounded-[12px] border-2 border-[#06286E] flex items-center pl-5 mt-6">
-            <div className="  text-[16px] font-[600]">
-              Can education flashcards be used for all age?{" "}
-            </div>
-            <div><img src="/drop.png" alt="" /></div>
-          </div>
-          <div className=" flex justify-between px-2 w-[848px] h-[58px] rounded-[12px] border-2 border-[#06286E] flex items-center pl-5 mt-6">
-          <div className="   text-[16px] font-[600]">
-            {" "}
-            How do education flashcard work?
-          </div>
-          <div><img src="/drop.png" alt="" /></div>
-
-          </div>
-
-          <div className=" flex justify-between px-2 w-[848px] h-[58px] rounded-[12px] border-2 border-[#06286E] flex items-center pl-5 mt-6">
-          <div className="   text-[16px] font-[600]">
-           Can education flashcards be used for text preparation? {" "}
-          </div>
-          <div><img src="/drop.png" alt="" /></div>
-
-          </div>
+         <Dropdown/>
         </div>
       </div>
     </div>
