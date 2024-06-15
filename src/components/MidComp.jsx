@@ -16,7 +16,7 @@ const MidComp = () => {
           <div className=" w-[24px] h-[24px] flex justify-center items-center">
             <img src="/Vector.png" className="w-[7.41px] h-[12px]" alt="" />
           </div>
-          <span>Mathematicss</span>
+          <span>Mathematics</span>
         </div>
         <div className="w-[212px] h-[22px] font-[600] text-[18px] text-[#06286E] flex justify-center items-center">
           <div className=" w-[24px] h-[24px] flex justify-center items-center">
